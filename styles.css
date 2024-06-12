@@ -10,7 +10,6 @@ body {
     flex-direction: column;
     flex: 1;
     border: none;
-    min-height: 100vh;
     min-width: fit-content;
     font-family: 'roboto', sans-serif;
     border: 1px solid black;
@@ -27,7 +26,6 @@ button {
 .header {
     font-size: 24px;
     color: #F9FAF8;
-    border: 1px solid white;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -54,18 +52,35 @@ a {
 .hero {
     background-color: #1F2937;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.hero-l {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    width:600px; 
+    padding-left: 10%;
+    padding-right: 5%;
+    gap: 15px;
+    text-wrap: wrap;
+}
+
+.hero-r {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
 }
 
 .hero-text {
     font-size: 48px;
     font-weight: bolder;
-    height: 20vh;
     color: #F9FAF8;
-    /* display: flex;
-    flex-direction: row; */
-    justify-content: center;
-    align-items: center;
 }
 
 .hero-subtext {
@@ -74,14 +89,14 @@ a {
 }
 
 .hero-image {
-    height: 150px;
-    width: 300px;
+    height: 200px;
+    width: 450px;
 }
 
 .hero-signup {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-radius: 5px;
+    padding: 4px 16px;
+    width: fit-content;
 }
 
 .information {
@@ -90,7 +105,6 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
 }
 
 .information-text {
@@ -98,7 +112,6 @@ a {
     font-weight: bolder;
     color: #1F2937;
     display: flex;
-    border: 1px solid black;
 }
 
 .information-block {
@@ -107,7 +120,6 @@ a {
     display: flex;
     padding-left: 20%;
     padding-right: 20%;
-
 }
 
 .image {
@@ -125,29 +137,37 @@ a {
     text-wrap: wrap;
 }
 
+.image-text{
+    width: 150px;
+}
+
 .quote-section {
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .quote {
     font-size: 36px;
     font-style: oblique;
     color: #1F2937;
-    display: flex;
+    text-align: left;
 }
 
 .quote-author {
+    padding-top: 8px;
     font-weight: bold;
+    text-align: end;
 }
 
 .action-call {
-    background-color: #3882F6;
-    width: 60vh;
-    height: 10vh;
     display: flex;
-    border-radius: 5px;
-    gap: 16px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -155,21 +175,48 @@ a {
 
 .action {
     display: flex;
+    background-color: #3882F6;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    gap: 8px;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.action-l {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 16px;
+    gap: 15px;
+}
+
+.action-r {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
 }
 
 .call, 
 .call-subtext {
     color: #eee;
+}
 
+.call-subtext
+{
+    font-size: small;
 }
 
 .call-signup {
+    display: flex;
+    justify-content: center;
     border: 1px solid #eee;
     border-radius: 5px;
-    padding: 4px 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .footer {
@@ -180,7 +227,6 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 10vh;
-    border: 1px solid white;
+    padding: 32px;
 }
 
