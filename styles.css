@@ -1,0 +1,79 @@
+/* styles.css */
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+body {
+    display: flex
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.hero-image {
+    height: 150px;
+    width: 300px;
+}
+
+.information-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #3882F6;
+    border-radius: 25px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: oblique;
+    color: #1F2937;
+}
+
+.action-call {
+    background-color: #3882F6;
+}
+
+.call-signup {
+    border: 1px solid #eee;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB
+}
+
